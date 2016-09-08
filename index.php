@@ -1,10 +1,9 @@
 <?php
-    //comentario de 1 linha
-    # comentario de 1 linha
-    /*
-      comentario de multiplas linhas  
-     *      */
-    $aluno = "celso";#declarando String
+    
+   $nome = "celso";
+   $sobrenome = "andre"; 
+   $idade = 31;
    
-
+   echo "Meu nome eh: ".$nome ." ".$sobrenome." e eu tenho "
+           .$idade." anos";
 ?>
