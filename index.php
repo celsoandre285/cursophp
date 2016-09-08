@@ -1,18 +1,16 @@
 <?php
-    //Declando variaveis
-    //Declarando String
-    $nome = "Celso";
-   
-    //Declarando inteiro, int integer;
-    $idade = 31;
+    //Declando Compostas
+    $grupos = array(1,2,3);
     
-    //Declarando Float
-    $nota = 7.5;
+    $variavel = array(
+        "nome"=>"celso",
+        "sobrenome"=>31,
+        "sexo"=>"masculino"
+    );
     
-    //Declarando Boolean(true / false)
-    $ligado = true;
+    echo $variavel["sexo"];
+    echo $grupos[1];
     
-    //Declarando Array
-    $grupos = array(1,2,3,4,5);
+    print_r($grupos);
     
 ?>
